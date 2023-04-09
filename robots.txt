@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://tsukoyachi.github.io/sitemap.xml
