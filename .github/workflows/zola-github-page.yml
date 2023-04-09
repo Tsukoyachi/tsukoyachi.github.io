@@ -1,6 +1,6 @@
 # On every push this script is executed
 on: push
-with:
+env:
   token: ${{ secrets.GH_TOKEN }}
 name: Build and deploy GH Pages
 jobs:
