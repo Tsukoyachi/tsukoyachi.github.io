@@ -85,7 +85,7 @@ params:
       Through my studies at [Polytech](https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-informatique) and my apprenticeship at [Air France KLM](https://www.airfranceklm.com/fr), I have become more versatile, gaining expertise in backend and frontend development, DevOps practices, system architecture, cloud technologies, and Green IT.
     skills:
       enable: true
-      title: "Here are a few langauges/frameworks I used recently, but I can work with many other :"
+      title: "Here are a few langauges/frameworks I used recently, but I can work with many others :"
       items:
         - "Java" 
         - Spring Boot
