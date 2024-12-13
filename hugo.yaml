@@ -1,0 +1,117 @@
+baseURL: https://tsukoyachi.github.io/
+languageCode: en-us
+title: My Portfolio
+theme: hugo-profile
+
+outputs:
+  home:
+    - "HTML"
+    - "RSS"
+    - "JSON"
+  page:
+    - "HTML"
+    - "RSS"
+
+paginate: 3
+enableRobotsTXT: true
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: /blogs
+      weight: 1
+
+params:
+  title: "Tsukoyachi's Portfolio"
+  description: "It's my own portfolio to expose my profile, my resume and showcase my projects :)"
+  favicon: "/images/favicon.png"
+  useBootstrapCDN: false
+  mathjax: false
+  animate: true
+
+
+  navbar:
+    align: ms-auto
+    brandName: "My Portfolio"
+    disableSearch: false
+    stickyNavBar:
+      enable : true
+      showOnScrollUp : true
+    enableSeparator: false
+    menus:
+      disableAbout: false
+      disableExperience: false
+      disableEducation: false
+      disableProjects: false
+      disableAchievements: false
+      disableContact: false
+
+
+  hero:
+    enable: true
+    intro: "Hi, my name is"
+    title: "Axel"
+    subtitle: "Software Developer"
+    content: "I’m a full-stack developer with an architecture-first approach and a strong commitment to environmental sustainability."
+    image: /images/pp.gif
+    bottomImage:
+      enable: true
+    button:
+      enable: true
+      name: "Resume"
+      url: "#"
+      download: true
+      newPage: false
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-github
+          url: https://github.com/Tsukoyachi
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/axel-delille/
+
+  about:
+    enable: true
+    title: "About Me"
+    content: |-
+      I'm a software developer with a primary focus on backend development, grounded in a strong background in computer science and mathematics.  
+
+      Through my studies at [Polytech](https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-informatique) and my apprenticeship at [Air France KLM](https://www.airfranceklm.com/fr), I have become more versatile, gaining expertise in backend and frontend development, DevOps practices, system architecture, cloud technologies, and Green IT.
+    skills:
+      enable: true
+      title: "Here are a few langauges/frameworks I used recently, but I can work with many other :"
+      items:
+        - "Java" 
+        - Spring Boot
+        - "Nest Js"
+        - "Quarkus"
+        - "Go"
+        - "C#"
+        - "Python"
+        - "React"
+
+
+  education:
+    enable: true
+    items:
+      - title: "Computer Science Degree"
+        school:
+          name: "Polytech Nice Sophia, France"
+          url: "https://polytech.univ-cotedazur.fr/formations/formations-ingenieurs/ingenieur-informatique"
+        date: "2020 - 2025"
+        content: |-
+          - Full-stack curriculum with a focus on Sustainable Software Engineering during the final year:
+            - Software Architecture
+            - Green IT
+          - Completed through an apprenticeship as a Software Developer at Air France KLM.
+      - title: "High School Degree"
+        school:
+          name: "Guillaume Apollinaire high school, France"
+          url: "https://www.education.gouv.fr/annuaire/06300/nice/lycee/0061763j/lycee-guillaume-apollinaire.html"
+        date: "2017 - 2020"
