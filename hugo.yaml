@@ -15,6 +15,8 @@ outputs:
 paginate: 3
 enableRobotsTXT: true
 
+disqusShortname: tsukoyachi-github-io
+
 markup:
   goldmark:
     renderer:
@@ -96,6 +98,15 @@ params:
         - "Python"
         - "React"
 
+  experience:
+    enable: true
+    items:
+      - job: "Software Developer"
+        company: "Air France KLM"
+        companyUrl: "https://www.airfranceklm.com/fr"
+        date: "Sept 2022 - present"
+        content: "Software developer at Air France KLM for 3 years, working in an Agile/SAFe team. Experienced in maintaining and redesigning applications into a microservices architecture migrated to Azure. Main technologies: Java (Spring Boot), Angular, GitHub, and Azure."
+
 
   education:
     enable: true
@@ -112,6 +123,27 @@ params:
           - Completed through an apprenticeship as a Software Developer at Air France KLM.
       - title: "High School Degree"
         school:
-          name: "Guillaume Apollinaire high school, France"
+          name: "Guillaume Apollinaire High School, France"
           url: "https://www.education.gouv.fr/annuaire/06300/nice/lycee/0061763j/lycee-guillaume-apollinaire.html"
         date: "2017 - 2020"
+  
+  footer:
+    recentPosts:
+      path: "blogs"
+      count: 3
+      title: Recent Posts
+      enable: true
+      disableFeaturedImage: false
+    socialNetworks:
+      github: https://github.com/Tsukoyachi
+      linkedin: https://www.linkedin.com/in/axel-delille/
+  
+  singlePages:
+    socialShare: true
+    readTime:
+      enable: true
+      content: "min read"
+    scrollprogress:
+      enable: true
+    tags:
+      openInNewTab: true

@@ -1,6 +1,6 @@
 ---
 date: '2024-12-13T18:12:22+01:00'
-draft: true
+draft: false
 title: 'First blog !'
 author: 'Axel Delille'
 image: /images/post.jpg
