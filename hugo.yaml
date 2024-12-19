@@ -1,6 +1,6 @@
 baseURL: https://tsukoyachi.github.io/
 languageCode: en-us
-title: My Portfolio
+title: Axel Delille's portfolio
 theme: hugo-profile
 
 outputs:
@@ -31,7 +31,7 @@ menus:
       weight: 1
 
 params:
-  title: "Tsukoyachi's Portfolio"
+  title: "Axel Delille's portfolio"
   description: "It's my own portfolio to expose my profile, my resume and showcase my projects :)"
   favicon: "/images/favicon.png"
   useBootstrapCDN: false
@@ -41,7 +41,7 @@ params:
 
   navbar:
     align: ms-auto
-    brandName: "My Portfolio"
+    brandName: "Axel Delille"
     disableSearch: false
     stickyNavBar:
       enable : true
